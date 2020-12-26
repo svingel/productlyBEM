@@ -1,0 +1,51 @@
+@import "fonts.css";
+
+.header {
+    display: flex;
+    width: 1126px;
+    height: 496px;
+    align-items: center;
+    padding-bottom: 110px;
+}
+
+.header__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 518px;
+    height: 331px;
+
+}
+
+.header__text-group {
+    width: 518px;
+    height: 233px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Poppins;
+}
+
+.header__text-group--title {
+    margin: 0px;
+    font-size: 44px;
+    font-weight: 700;
+    width: 518px;
+}
+
+.header__text-group--plain {
+    margin: 0px;
+    font-size: 18px;
+    width: 458px;
+}
+
+.header__button-group {
+    display: flex;
+    /*tu padding gorny, zeby odsunac od textbloku*/
+}
+
+.header__image {
+    width: 605px;
+    height: 496px;
+
+}

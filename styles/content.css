@@ -1,0 +1,89 @@
+@import "fonts.css";
+
+.content {
+    margin: 0px;
+    display: flex;
+    width: 1110px;
+    height: 574px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+
+.content--reverse {
+    flex-direction: row-reverse;
+}
+
+.content__description {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 486px;
+    height: 520px;
+}
+
+.content__description-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    width: 486px;
+    height: 88px;
+}
+
+.content__description-text {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.content__description-title {
+    margin: 0px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.content__description-subtitle {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.content__img {
+    margin: 0px;
+    width: 520px;
+    height: 574px;
+}
+
+.content__description-bullet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    width: 430px;
+    height: 52px;
+}
+
+.content__description-bullet-img {
+    width: 35px;
+    height: 35px;
+}
+
+.content__description-bullet-text {
+    width: 365px;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.content__description--small {
+    width: 486px;
+    height: 427px;
+}
+
+.content--bottom-padded {
+    padding-bottom: 146px;
+}

@@ -1,0 +1,44 @@
+@import "fonts.css";
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 1126px;
+    height: 308px;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 1px solid rgba(188, 208, 229, 0.496913);
+
+}
+
+.footer__logo {
+    align-self: flex-start;
+    padding-top: 102px;
+}
+
+.footer__footbar {
+    list-style-type:none;
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 35px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer__signup {
+    display: flex;
+    height: 108px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__phone {
+    box-sizing: border-box;
+    width: 325px;
+    height: 48px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: #BCD0E5;
+}

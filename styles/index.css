@@ -1,0 +1,13 @@
+@import "fonts.css";
+
+body {
+	width: 1400px;
+	margin: 0 auto;
+	padding-left: 137px;
+	padding-right: 137px;
+	padding-top: 20px;
+	padding-bottom: 83px;
+	background-color: white;
+	color: #2F281E;
+	font-family: Poppins, sans-serif;
+}

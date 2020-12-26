@@ -1,0 +1,26 @@
+@import "fonts.css";
+
+.navigation {
+	display: flex;
+	width: 1126px;
+	height: 108px;
+	padding-bottom: 30px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navigation__buttons {
+	width: 234px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navigation__logo {
+	display: flex;
+	flex-grow: 0.8;
+}
+
+.navigation__img {
+	width: 187px;
+	height: 32px;
+}
