@@ -1,12 +1,25 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import "fonts.css";
 
 .feature {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0px;
+    display: -webkit-box;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+            justify-content: space-between;    
     width: 1126px;
     height: 543px;
     padding-bottom: 90px;
@@ -22,18 +35,25 @@
 }
 
 .feature__cards {
+    display: -webkit-box;
     display: flex;
-    flex-direction: row;
-    /*align-items: flex-start;*/
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+            justify-content: space-between;    
     width: 1095px;
     height: 204px;
 }
 
 .feature__card {
+    display: -webkit-box;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-pack: start;
+            justify-content: flex-start;
     width: 240px;
     font-family: Poppins;
 }
@@ -43,15 +63,17 @@
     height: 50px;
     align-self: flex-start;
     padding-bottom: 30px; 
-
 }
 
 .feature__details {
+    display: -webkit-box;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+            justify-content: space-between;    
     width: 240px;
-
 }
 
 .feature__name {
@@ -66,6 +88,5 @@
     margin: 0px;
     font-size: 16px;
     font-weight: 500;
-
 }
 

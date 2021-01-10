@@ -1,9 +1,15 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import "fonts.css";
 
 .button {
 	border-radius: 4px;
     font-size: 16px;
-
 }
 
 .button--orange {
@@ -19,11 +25,13 @@
 }
 
 .button--white {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 	border: 1px solid #BCD0E5;
 	background: white;
 	color: #173A56;
 }
+
 .button--small {
     width: 131px;
     height: 39px;
@@ -48,10 +56,13 @@
 } 
 
 .button--icon {
+    display: -webkit-box;
     display: flex;
     justify-content: center;
-    align-items: center;
-
+    -webkit-box-pack: center;
+        justify-content: center;
+    -webkit-box-align: center;
+        align-items: center;
 }
 
 .button__text--underline {

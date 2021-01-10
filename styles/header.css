@@ -1,28 +1,45 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import "fonts.css";
 
 .header {
+    display: -webkit-box;
     display: flex;
     width: 1126px;
     height: 496px;
-    align-items: center;
+    -webkit-box-align: center;
+        align-items: center;    
     padding-bottom: 110px;
 }
 
 .header__description {
+    display: -webkit-box;
+
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+            justify-content: space-between;    
     width: 518px;
     height: 331px;
-
 }
 
 .header__text-group {
     width: 518px;
     height: 233px;
+    display: -webkit-box;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+            justify-content: space-between;    
     font-family: Poppins;
 }
 
@@ -40,6 +57,7 @@
 }
 
 .header__button-group {
+    display: -webkit-box;
     display: flex;
     /*tu padding gorny, zeby odsunac od textbloku*/
 }
@@ -47,5 +65,4 @@
 .header__image {
     width: 605px;
     height: 496px;
-
 }
